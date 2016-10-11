@@ -4,11 +4,9 @@ class ShoppingCart
   def initialize
     @items = []
   end
-
   def add_item(item)
     @items.push(item)
   end
-
   def checkout
     total_checkout_price = 0.0
     @items.each do |item|
@@ -28,7 +26,6 @@ class Item
     @name = name
     @price = price
   end
-
   def price
     @price
   end
@@ -44,8 +41,6 @@ class Houseware < Item
   end
 end
 
-
-
 class Fruit < Item
   def price
     if Date.today.saturday? || Date.today.sunday?
@@ -54,7 +49,6 @@ class Fruit < Item
      @price
   end
 end
-
 
 joshs_cart = ShoppingCart.new
 banana = Fruit.new("Banana", 10)
