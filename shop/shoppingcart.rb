@@ -48,9 +48,7 @@ end
 
 class Fruit < Item
   def price
-    saturday = Date.today.saturday?
-    sunday = Date.today.sunday?
-    if saturday || sunday
+    if Date.today.saturday? || Date.today.sunday?
       @price -= (@price * 0.10)
     end
      @price
