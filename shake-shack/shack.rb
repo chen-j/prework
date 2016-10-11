@@ -48,5 +48,3 @@ banana = Ingredient.new("Banana", 2)
 chocolate_chips = Ingredient.new("Chocolate Chips", 1)
 nizars_milkshake.add_ingredient(banana)
 nizars_milkshake.add_ingredient(chocolate_chips)
-
-puts ShakeShop
