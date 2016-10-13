@@ -1,10 +1,10 @@
 function blastOff(number) {
-	while (number > 0) {
+	while (number >= 0) {
 		console.log(number);
 		number -= 1;
 	}
-  
-	if (number === 0) {
+
+	if (number === -1) {
 		console.log("Blast Off");
 	}
 
