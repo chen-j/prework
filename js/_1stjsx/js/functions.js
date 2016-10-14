@@ -15,6 +15,8 @@
 // If your code works, the last three equalities will be "true"
 
 
+/*
+
 function dniLetter( dni ) {
 
 	var lockup = 'TRWAGMYFPDXBNJZSQVHLCKE';
@@ -27,6 +29,7 @@ console.log( dniLetter( 12345678 ) === 'Z');
 console.log( dniLetter( 34667892 ) === 'S');
 console.log( dniLetter( 92234488 ) === 'A');
 
+*/
 
 
 
@@ -37,8 +40,8 @@ console.log( dniLetter( 92234488 ) === 'A');
 // Improve the exercise above to be able to perform this new functionality
 // Of course it has to keep working as usual with right inputs.
 
-/*
 
+/*
 console.log( dniLetter( -1 ) === 'Invalid parameter');
 console.log( dniLetter( "A1234567" ) === 'Invalid parameter');
 
@@ -52,7 +55,7 @@ console.log( dniLetter( "A1234567" ) === 'Invalid parameter');
 // Open the console and reload the index page to see the result of the code.
 // Write a function that takes an array of words and returns the length of the longest one.
 
-/*
+
 
 function findLongestWord( array_words ){
 
@@ -62,7 +65,7 @@ console.log( findLongestWord( ["Richie", "Joanie", "Greg", "Marcia", "Bobby"] ) 
 console.log( findLongestWord( ["Blanka", "Zangief", "Chun Li", "Guile"] ) === 7 );
 console.log( findLongestWord( ["Red", "Blue", "Green"] ) === 5 );
 
-*/
+
 
 //EXERCISE 4
 //
