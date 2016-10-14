@@ -59,9 +59,19 @@ console.log( dniLetter( "A1234567" ) === 'Invalid parameter');
 
 function findLongestWord( array_words ){
 
+  var maxLength = 0;
+
+  for (var wordPosition = 0; wordPosition < array_words.length ; wordPosition++){
+    if (array_words[wordPosition].length > maxLength) {
+      maxLength = array_words[wordPosition].length;
+    }
+
+  }
+  return maxLength;
+
 }
 
-console.log( findLongestWord( ["Richie", "Joanie", "Greg", "Marcia", "Bobby"] ) ===6 );
+console.log( findLongestWord( ["Richie", "Joanie", "Greg", "Marcia", "Bobby"] ) === 6 );
 console.log( findLongestWord( ["Blanka", "Zangief", "Chun Li", "Guile"] ) === 7 );
 console.log( findLongestWord( ["Red", "Blue", "Green"] ) === 5 );
 
